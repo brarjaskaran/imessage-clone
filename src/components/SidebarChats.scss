@@ -1,0 +1,31 @@
+$base-color: #3e93fd;
+
+.sidebarChats {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  border-bottom: 1px solid lightgrey;
+  cursor: pointer;
+}
+
+.sidebarChats:hover {
+  background-color: $base-color;
+  color: white;
+}
+
+.sidebarChats__info {
+  // display: flex;
+  // align-items: center;
+  margin-left: 15px;
+  position: relative;
+  width: 100%;
+}
+
+.sidebarChats__info > small {
+  position: absolute;
+  top: 5px;
+  right: 0;
+}
+
+.sidebarChats {
+}
